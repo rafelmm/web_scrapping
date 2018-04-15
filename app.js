@@ -16,7 +16,6 @@ var server = http.createServer(app);
 var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/api",
-    userDir:"/home/nol/.nodered/",
     functionGlobalContext: { 
 		cheerio: require('cheerio'),
 		customFunctions: require('./functions.js'),
