@@ -1,0 +1,29 @@
+{
+  "name": "web_scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafelmm/web_scrapping.git"
+  },
+  "keywords": [
+    "web",
+    "node",
+    "node-red"
+  ],
+  "author": "Rafel Mormeneo Melich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafelmm/web_scrapping/issues"
+  },
+  "homepage": "https://github.com/rafelmm/web_scrapping#readme",
+  "dependencies" : {
+    "express"    : "latest",
+    "cheerio"    : "latest",
+	"node-red"	 : "latest"
+  }
+}
