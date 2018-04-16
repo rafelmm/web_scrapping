@@ -16,6 +16,8 @@ var server = http.createServer(app);
 var settings = {
     httpAdminRoot:"/red",
     httpNodeRoot: "/api",
+	userDir: "./nodeApp",
+	flowFile: "./nodeApp/flows.json",
     functionGlobalContext: { 
 		cheerio: require('cheerio'),
 		customFunctions: require('./functions.js'),
